@@ -3,10 +3,14 @@
 em uma linha
 
 '''
+nomes = []
 
 for i in range (5):
-    names_user = input('Digite um nome: ')
+    usuario_nome = input('Digite um nome: ')
+    nomes.append(usuario_nome)
+print('Nomes digitados: ')
+for nome in nomes:
+    print(nome)
 
-nomes = names_user
-names_user
-
+    
+ 

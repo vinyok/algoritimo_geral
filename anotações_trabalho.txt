@@ -1,0 +1,34 @@
+dic de workshop, fazendo uma lista dele com nome
+
+palestras, maratonas, mini cursos tudo em dicionário
+
+mini curso: 
+
+
+
+
+usar importação correta dos arquivos, aplicando funções, estrutura de dados correta, listas, tuplas e PRINCIPALMENTE DICIONARIO.
+
+listar todos os workshops cadastrados, minicursos também
+
+cada evento, teremos muitos eventos 
+
+ler a lista, ler o dicionário e tirar informações do dicionário
+
+
+Evento (PARAMETRO): nome, data, tema central
+
+lista de dicionário e dentro do dicionário teremos uma lista de participantes
+
+limite max de participantes (opcional)
+validações(opcional)
+
+separar eventos e participantes
+
+media de participantes, media de evento
+
+alterar o nome do evento
+
+validação possiveis: compreensão de lista, SET(). usar set()
+
+posso colocar o cpf como código

@@ -14,8 +14,8 @@ from functools import reduce
 from random import randint
 
 numeros = [randint(1,50) for _ in range(10)]
-# x é o valor acumulador, começa com 0 e vai subindo
 
+# x é o valor acumulador, começa com 0 e vai subindo
 soma_total = reduce(lambda x, y: x + y, numeros)
 print(soma_total)
 print(max(numeros))

@@ -9,6 +9,6 @@ from random import randint
 
 numeros = [randint(1,10) for _ in range(10)]
 
-resultado = map(lambda x: x ** 2, numeros * 2)
+resultado = reduce(lambda x, y: x * y, filter(lambda x: x % 2 == 0, map(lambda x: x * 2, numeros)))
 
 print(resultado)
